@@ -34,6 +34,9 @@ public class BuddyInfo {
 		this.name = name;
 	}
 	
+	public void outputHello() {
+		System.out.println("hello");
+	}
 	public static void main(String[] args) {
 	BuddyInfo buddy = new BuddyInfo("Marc", "113 sesame street","6135559292");
 	System.out.println("Hello " + buddy.getName());
